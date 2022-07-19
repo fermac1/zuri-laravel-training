@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto;
+    text-align: center;
+    transform: translateY(50%);
+}
+.create{
+    margin: 30px auto;
+    text-align: center;
+}
+.btn{
+    border-radius: 5px;
+    padding: 5px 8px;
+    border: 1px solid #000000;
+    background: #1f273a;
+    width: fit-content;
+    color: #ffffff;
+}
+.btn a{
+    color: #ffffff;
+    text-decoration: none;
+}
+button.btn{
+    margin: auto 5px;
+    padding: 8px;
+}
+button.edit{
+    padding: 8px 15px;
+}
+/* .btn:hover{
+    background: #434e60;
+    border: none;
+} */
+table {
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+  
+table, td, th {
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+input{
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+.error{
+    color: red;
+    background: rosybrown;
+}
+.message{
+    background: rgb(111, 168, 136);
+    width: fit-content;
+    padding: 10px;
+    margin: 20px  auto;
+    text-align: center;
+}
